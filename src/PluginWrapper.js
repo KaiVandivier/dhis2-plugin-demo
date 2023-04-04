@@ -5,7 +5,8 @@ import postRobot from '@krakenjs/post-robot'
 
 // "ANC 3 coverage by districts last 12 months"
 // This is copied here, because the dashboard app does some custom
-// transformations to this visualization object
+// transformations to this visualization object, and can't just pass an
+// ordinary visualization object 😢
 const visualizationHack = {
     href: 'https://debug.dhis2.org/dev/api/41/visualizations/DkPKc1EUmC2',
     name: 'ANC: 1-3 trend lines last 12 months',
