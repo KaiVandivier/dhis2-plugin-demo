@@ -1,0 +1,8 @@
+.wrapper {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+}
